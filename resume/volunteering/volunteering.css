@@ -1,0 +1,93 @@
+*{
+    margin: auto;
+    box-sizing: border-box;
+}
+
+#page-wrapper{
+    margin: 0 auto;
+    width: 80vw;
+    font-family: Verdana, sans-serif;
+    border: solid 1px black;
+}
+
+#container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    height: 150vh;
+    background-color: white;
+}
+
+header{
+    font-size: calc(1px + 1vw);
+    background-color: #705C53;
+    text-align: center;
+    color: bisque;
+    padding: 1%;
+}
+
+nav{
+    padding: 3% 0;
+    background-color: #B7B7B7;
+    font-size: calc(1px + 1vw);
+    width: 30%;
+    height: 150vh;
+}
+
+nav ul{
+    margin: 0 auto;
+    list-style-type: none;
+    padding: 6%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+nav li{
+    margin: 10% 5%;
+    display: inline;
+    padding: 1% 2%;
+    font-size: calc(3px + 2vw);
+    border: 3px solid #545454;
+    background-color: white;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+main{
+    background-color: white;
+    font-size: calc(1px + 1vw);
+    text-align: left;
+    padding: 1%;
+    height: 150vh;
+    width: 70%
+}
+
+#table{
+    text-align: center;
+}
+
+img{
+    max-width: 100%;
+}
+
+main h2{
+    color: #705C53;
+}
+
+footer{
+    background-color: #705C53;
+    font-size: calc(1px + 1vw);
+    text-align: center;
+    color: bisque;
+    padding: 1%;
+}
+
+footer a{
+    color: white;
+}

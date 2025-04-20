@@ -1,0 +1,141 @@
+*{
+    margin: auto;
+    box-sizing: border-box;
+}
+
+#page-wrapper{
+    margin: 0 auto;
+    width: 80vw;
+    font-family: Verdana, sans-serif;
+    border: solid 1px black;
+}
+
+#container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    height: 150vh;
+    background-color: white;
+}
+
+header{
+    font-size: calc(1px + 1vw);
+    background-color: #705C53;
+    text-align: center;
+    color: bisque;
+    padding: 1%;
+}
+
+nav{
+    padding: 3% 0;
+    background-color: #B7B7B7;
+    font-size: calc(1px + 1vw);
+    width: 30%;
+    height: 150vh;
+}
+
+nav ul{
+    margin: 0 auto;
+    list-style-type: none;
+    padding: 6%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+nav li{
+    margin: 10% 5%;
+    display: inline;
+    padding: 1% 2%;
+    font-size: calc(3px + 2vw);
+    border: 3px solid #545454;
+    background-color: white;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+main{
+    background-color: white;
+    font-size: calc(1px + 1vw);
+    text-align: left;
+    padding: 1%;
+    height: 150vh;
+    width: 70%
+}
+
+#welcome {
+    font-size: calc(1.5px + 1.5vw);
+}
+img {
+    display: block;
+    padding: 0;
+    max-width: 100%;
+    border: solid 3px bisque;
+}
+
+main h2{
+    color: #705C53;
+}
+
+main h3{
+    padding-top: 1%;
+}
+
+footer{
+    background-color: #705C53;
+    font-size: calc(1px + 1vw);
+    color: bisque;
+    padding: 1vh 1vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+footer a{
+    color: white;
+}
+
+#time-date{
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+    color: bisque;
+}
+
+@media screen and (max-width: 750px) {
+    #container{
+        flex-direction: column;
+    }
+    header {
+        text-align: center;
+    }
+
+    nav{
+        width: 100%;
+        height: 20%;
+    }
+
+    main{
+        width: 100%;
+    }
+
+    nav ul{
+        width:100%;
+        margin:0 auto;
+        padding: 1% 1% 1% 0;
+        flex-direction: row;
+    }
+
+    nav li{
+        display:inline;
+        padding: 0 0.5%;
+        margin: 0.5%;
+    }
+}
