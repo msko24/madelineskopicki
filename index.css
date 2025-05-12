@@ -20,6 +20,12 @@
     background-color: #126933;
 }
 
+.webinfo{
+    text-align: center;
+    font-size: calc(4px + 1.5vw);
+    padding: 0 20%;
+}
+
 .link {
     text-align: center;
     font-size: calc(4px + 1.5vw);
