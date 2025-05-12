@@ -22,8 +22,8 @@
 
 .webinfo{
     text-align: center;
-    font-size: calc(4px + 1.5vw);
-    padding: 0 20%;
+    font-size: calc(3px + 1vw);
+    padding: 0 10%;
 }
 
 .link {
