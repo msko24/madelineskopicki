@@ -67,11 +67,12 @@ nav li{
     border: 3px solid #545454;
     background-color: #126933;
     text-align: center;
+    color: bisque
 }
 
 nav a{
     text-decoration: none;
-    color: black;
+    color: bisque;
 }
 
 #welcome {
