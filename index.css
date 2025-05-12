@@ -60,7 +60,7 @@ nav ul{
 }
 
 nav li{
-    margin: 1% 25%;
+    margin: 1% 20%;
     display: inline;
     padding: 1% 2%;
     font-size: calc(3px + 2vw);
