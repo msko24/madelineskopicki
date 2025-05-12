@@ -1,0 +1,153 @@
+/*Initial File: Maddie*/
+
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=ZCOOL+QingKe+HuangYou&family=ZCOOL+XiaoWei&display=swap');
+
+* {
+    margin: 0;
+    padding-left: 0;
+    box-sizing: border-box;
+}
+
+/* IDs */
+#page-wrapper {
+    font-family: "Jaro", sans-serif ;
+    width: 100%;
+    background-color: dimgray;
+}
+
+/* this is for the media queries */
+#media-layout {
+    display: flex;
+    flex-direction: column;
+}
+
+/* HEADER */
+header {
+    background-color: dimgray;
+    padding: 2vw;
+    font-size: calc(5px + 2vw);
+    border-bottom-style: double;
+    border-bottom-width: 5px;
+    color: white;
+    border-color: lavender;
+    text-align: center;
+    font-family: serif;
+
+}
+
+/* NAV */
+nav {
+    padding: 1vw 0;
+    background-color: lavender;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+}
+nav li {
+    padding: 2.5vw 2vw;
+    font-size: calc(2px + 1.4vw);
+    display: inline;
+}
+nav a:link {
+    color: black;
+}
+
+nav a:visited {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* MAIN */
+main{
+    font-family: "Lucida Console", "Courier New", monospace;
+    height: 150vh;
+}
+main{
+    color: white;
+    margin: 1vw 2vw;
+    font-size: calc(5px + 2vw);
+
+}
+
+p{ color: lavender}
+main ul {
+    margin: 1vw 2vw;
+    font-size: calc(2px + 1.4vw);
+}
+
+h3 {
+    font-size: calc(3px + 1.4vw);
+    color: lavender;
+    padding: 1vw 1vw 1vw 0;
+}
+.imageContent{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+}
+
+img{
+    max-width:40%;
+}
+
+.content{
+    width:60%;
+    padding:0 0 0 1vw;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 750px) {
+    #media-layout{
+        display: flex;
+        flex-direction: column;
+    }
+    #columns {
+        text-align: center;
+    }
+    header {
+        text-align: center;
+    }
+    nav {
+        width: 100%;
+        text-align: center;
+    }
+    main {
+        width: 100%;
+    }
+    nav li {
+        display: inline;
+        margin: 2vw 0;
+    }
+
+    img{
+        max-width: 90%;
+        display: block;
+    }
+
+    #content{
+        width: 100%;
+        display: block;
+    }
+
+    .imageContent{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    img{
+        width:100%;
+    }
+
+    .content{
+        width:100%;
+        padding:1%;
+    }
+
+}
